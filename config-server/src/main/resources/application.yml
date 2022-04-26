@@ -1,0 +1,16 @@
+
+server:
+    port: 8888
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        fail-fast: true
+        git:
+          uri: file:///E://Workspace//config-server-demo//config-repo
+          search-paths:
+            - common
+            - '{application}'
+        default-label: master

@@ -1,0 +1,5 @@
+# Project exclude paths
+/config-server/target/
+/service-a/target/
+/service-b/target/
+/service-c/target/
